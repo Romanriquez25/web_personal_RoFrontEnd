@@ -1,265 +1,259 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/scroll.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.2-web/css/all.min.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-     <title>Portafolio||RodrigoManriquez</title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/scroll.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portafolio||RodrigoManriquez</title>
+  </head>
+  <body>
     <!-- layout principal -->
 
     <div class="layout">
+      <!--BarraLateral-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!--información general-->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="./assets/img/Avatar.jpg"
+                alt="Foto de perfil"
+                class="user__info-image"
+              />
+            </div>
 
-        <!--BarraLateral-->
-        <aside class="layout__aside">
+            <h2 class="user-info__name">Rodrigo Manriquez</h2>
+            <h4 class="user-info__job">Desarrollador FullStack</h4>
+          </div>
+          <!--Menu Navegacion-->
+          <nav class="layaout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link"
+                  ><i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link"
+                  ><i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link menu__link--active"
+                  ><i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">curriculum</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link"
+                  ><i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
 
-            <section class="aside__user-info">
-                <!--información general-->
-                <div class="user-info__general">
-                    <div class="user-info__container-image">
-                        <img src="./assets/img/Avatar.jpg" alt="Foto de perfil" class="user__info-image">
-                    </div>
-                    
-                    <h2 class="user-info__name">Rodrigo Manriquez</h2>
-                    <h4 class="user-info__job">DesarrolladorWeb</h4>
-                </div>
-                <!--Menu Navegacion-->
-                <nav class="layaout__menu">
-                    <ul class="menu__list">
-                        <li class="menu__option">
-                            <a href="index.html" class="menu__link"><i class="menu__icon fa-solid fa-house"></i>
-                            <span class="menu__overlay">Home</span>
-                            </a>
-                        </li>
-                        <li class="menu__option">
-                            <a href="sobre-mi.html" class="menu__link "><i class="menu__icon fa-solid fa-user"></i>
-                            <span class="menu__overlay">Sobre mi</span>
-                            </a>
-                        </li>
-                        <li class="menu__option">
-                            <a href="curriculum.html" class="menu__link menu__link--active"><i class="menu__icon fa-solid fa-graduation-cap"></i>
-                            <span class="menu__overlay">curriculum</span>
-                            </a>
-                        </li>
-                        <li class="menu__option">
-                            <a href="portafolio.html" class="menu__link"><i class="menu__icon fa-solid fa-briefcase"></i>
-                            <span class="menu__overlay">Portafolio</span>
-                            </a>
-                        </li>
-                       
-                        <li class="menu__option">
-                            <a href="contacto.html" class="menu__link"><i class="menu__icon fa-solid fa-envelope"></i>
-                            <span class="menu__overlay">Contacto</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <!--Links Redes sociales-->
-                 <div class="user-info__links">
-                    <ul class="links__social">
-                        <li class="social__option">
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link"
+                  ><i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!--Links Redes sociales-->
+          <div class="user-info__links">
+            <ul class="links__social">
+              <div class="user-info__links">
+                <ul class="links__social">
+                    <li class="social__option">
+                        <a class="social__link" href="#"><i class="social__icon fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+             </div>
+            </ul>
+         </div>
+          <!--Boton del curriculum-->
 
-                            <a class="social__link" href="#"><i class="social__icon fa-brands fa-facebook"></i></a>
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn">Descargar CV</a>
+          </div>
 
-                        </li>
-                        <li class="social__option">
+          <!--Pie de pagina-->
 
-                            <a class="social__link" href="#"><i class="social__icon fa-brands fa-linkedin"></i></a>
+          <footer class="user-info__footer">
+            <p class="footer__copy">© 2023 RodrigoManriquez</p>
+          </footer>
+        </section>
+      </aside>
 
-                        </li>
-                        <li class="social__option">
+      <!--Contenido Principal-->
+      <main class="layout__content">
+        <section class="content__page content__curriculum">
+          <header class="curriculum__header">
+            <h1 class="curriculum__title">Curriculum</h1>
+          </header>
 
-                            <a class="social__link" href="#"><i class="social__icon fa-brands fa-instagram"></i></a>
+          <div class="curriculum__container">
+            <section class="curriculum__left">
+              <header class="curriculum__subheader">
+                <h2 class="curriculum__subtitle">Experiencia</h2>
+              </header>
+              <div class="curriculum__timelines">
+                <article class="timelines__item">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2023</h4>
+                    <span class="timeline__institucion">Supervisor Ventas 
+                    </span>
+                  </header>
+                  <div class="timeline__divider"></div>
+                 
+                  <div class="timelines__description">
+                    <h3 class="timelinea__title">Selyt s.a.</h3>
 
-                        </li>
-                    </ul>
-                 </div>
-                <!--Boton del curriculum-->
-
-                <div class="user-info__buttons">
-                    <a href="#" class="user-info__btn">Descargar CV</a>
-                </div>
-
-                <!--Pie de pagina-->
-
-                <footer class="user-info__footer">
-                    <p class="footer__copy">© 2023 RodrigoManriquez</p>
-                </footer>
-
-
-            </section>
-
-        </aside>
-
-        <!--Contenido Principal-->
-        <main class="layout__content">
-            <section class="content__page content__curriculum">
-                <header class="curriculum__header">
-                    <h1 class="curriculum__title"> Curriculum</h1>
-                </header>
-               
-                <div class="curriculum__container">
-
-                    <section class="curriculum__left">
-                        <header class="curriculum__subheader">
-                            <h2 class="curriculum__subtitle">
-                                Formación academica
-                            </h2>
-                        </header>
-                        <div class="curriculum__timelines">
-                            <article class="timelines__item">
-                                <header class="timeline__header">
-                                   <h4 class="timeline__year">2023</h4>
-                                   <span class="timeline__institucion">Desafio Latam</span>
-                                </header>
-                                <div class="timeline__divider">
-                                    
-                                </div>
-                              
-                                <div class="timelines__description">
-                                    <h3 class="timelinea__title">DesarrolloWeb</h3>
-                                    <p class="timeline__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloribus blanditiis aut sit distinctio ipsa hic. Dolorem dolores esse vero commodi quaerat illum. Molestiae, quidem corporis dolores officia ullam odit.</p>
-                                </div>
-                            </article>
-                           
-                            <article class="timelines__item">
-                                <header class="timeline__header">
-                                   <h4 class="timeline__year">2018</h4>
-                                   <span class="timeline__institucion">SENCE</span>
-                                </header>
-                                <div class="timeline__divider">
-                                    
-                                </div>
-                                <div class="timelines__description">
-                                    <h3 class="timelinea__title">Java</h3>
-                                    <p class="timeline__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloribus blanditiis aut sit distinctio ipsa hic. Dolorem dolores esse vero commodi quaerat illum. Molestiae, quidem corporis dolores officia ullam odit.</p>
-                                </div>
-                            </article>
-                        </div>
-                       
-                    </section>
-                    <section class="curriculum__right">
-                        <header class="curriculum__subheader">
-                            <h2 class="curriculum__subtitle">
-                                Habilidades de  <span class="title__color">Diseño</span>
-                            </h2>
-                            <div class="curriculum__skill">
-                                <article class="skill__item">
-                                    <h4 class="skill__text">Diseño web</h4>
-                                    <span class="skill__number">95%</span>
-                                </article>
-                                <div class="skill__progressbar">
-                                    <div class="skill__porcentage skill__porcentage--diseño-web">
-
-                                    </div>
-                                </div>
-                            
-                                <article class="skill__item">
-                                    <h4 class="skill__text">Diseño mockups</h4>
-                                    <span class="skill__number">80%</span>
-                                </article>
-                                <div class="skill__progressbar">
-                                    <div class="skill__porcentage skill__porcentage--mockups">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                        </header>
-                        <header class="curriculum__subheader">
-                            <h2 class="curriculum__subtitle">
-                                Habilidades de <span class="title__color">Codigo</span>
-                            </h2>
-                        </header>
-                        <div class="curriculum__skill">
-                            <article class="skill__item">
-                                <h4 class="skill__text">HTML</h4>
-                                <span class="skill__number ">90%</span>
-                            </article>
-                            <div class="skill__progressbar">
-                                <div class="skill__porcentage skill__porcentage--html">
-
-                                </div>
-                            </div>
-                            <article class="skill__item">
-                                <h4 class="skill__text">CSS</h4>
-                                <span class="skill__number">90%</span>
-                            </article>
-                            <div class="skill__progressbar">
-                                <div class="skill__porcentage skill__porcentage--css">
-                                    
-                                </div>
-                            </div>
-                            <article class="skill__item">
-                                <h4 class="skill__text">JavaScript</h4>
-                                <span class="skill__number">80%</span>
-                            </article>
-                            <div class="skill__progressbar">
-                                <div class="skill__porcentage skill__porcentage--react">
-                                    
-                                </div>
-                            </div>
-                            <article class="skill__item">
-                                <h4 class="skill__text">React</h4>
-                                <span class="skill__number">80%</span>
-                            </article>
-                            <div class="skill__progressbar">
-                                <div class="skill__porcentage skill__porcentage--react">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                </div>
-                <section class="certificates__container">
-                        <header class="certificate__header">
-                            <h2 class="certificate__title">Certificados</h2>
-                        </header>
-                        <div class="certificates_certificate">
-                            <article class="cartificates__item">
-                            <div class="cartificate__logo">
-                                <img src="./assets/img/logo-desafiolatam.png" alt="" class="certificate__logoimg">
-                            </div>
-                            <h3 class="certificate__subtitle"> CSS avanzado</h3>
-                            <p class="certificate__numberid">Codigo validacion:</p>
-                        </article>
-                        <article class="cartificates__item">
-                            <div class="cartificate__logo">
-                                <img src="./assets/img/logo-sence.png" alt="" class="certificate__logoimg">
-                            </div>
-                            <h3 class="certificate__subtitle"> JAVA</h3>
-                            <p class="certificate__numberid">Codigo validacion:</p>
-                        </article>
-                        <article class="cartificates__item">
-                            <div class="cartificate__logo">
-                                <img src="./assets/img/certificado-1.png" alt="" class="certificate__logoimg">
-                            </div>
-                            <h3 class="certificate__subtitle">Css Avanzado</h3>
-                            <p class="certificate__numberid"> Codigo validación:</p>
-                        </article>
-                            
-                        </div>
+                    <p class="timeline__description">
+                        <ul class="timeline__description">
+                            <li>Supervisión y dirección de equipo de ventas</li>
+                            <li>Gestión y coordinación de ventas de productos WOM</li>
+                            <li>Implementación de estrategias de ventas para alcanzar y superar los objetivos establecidos</li>
+                            <li>Formación y apoyo continuo al equipo de ventas para mejorar su desempeño y eficiencia</li>
+                            <li>Monitoreo y análisis de los informes de ventas para identificar áreas de mejora</li>
+                        </ul>
                         
-                    </section>
+                    </p>
+                  </div>
+                </article>
 
-
-                
-
-                
+                <article class="timelines__item">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2018</h4>
+                    <span class="timeline__institucion">Vendedor intangibles empresa 
+                    </span>                  </header>
+                  <div class="timeline__divider"></div>
+                  <div class="timelines__description">
+                    <h3 class="timelinea__title">Selyt s.a.</h3>
+                    <p class="timeline__description">
+                        <ul class="timeline__description">
+                            <li>Venta de productos WOM, asesorando a los clientes sobre las opciones disponibles</li>
+                            <li>Gestión de relaciones con los clientes para asegurar su satisfacción y fidelización</li>
+                            <li>Cumplimiento de los objetivos de ventas individuales y contribución al cumplimiento de los objetivos del equipo</li>
+                            <li>Elaboración de reportes de ventas y seguimiento de las actividades comerciales</li>
+                            <li>Resolución de dudas y problemas técnicos relacionados con los productos ofrecidos</li>
+                        </ul>
+                        
+                    </p>
+                  </div>
+                </article>
+              </div>
             </section>
-        </main>
-    </div>
+            <section class="curriculum__left">
+                <header class="curriculum__subheader">
+                  <h2 class="curriculum__subtitle">Formación academica</h2>
+                </header>
+                <div class="curriculum__timelines">
+                  <article class="timelines__item">
+                    <header class="timeline__header">
+                      <h4 class="timeline__year">2023</h4>
+                      <span class="timeline__institucion">Desafio Latam</span>
+                    </header>
+                    <div class="timeline__divider"></div>
+  
+                    <div class="timelines__description">
+                      <h3 class="timelinea__title">DesarrollFullStack</h3>
+                      <p class="timeline__description">
+                        En el bootcamp de Desafío Latam, adquirí habilidades en desarrollo web full stack con un enfoque
+                         particular en React. A lo largo del programa, profundicé en tecnologías 
+                         como JavaScript, HTML, CSS, Node.js, y bases de datos, además de implementar 
+                         proyectos prácticos que fortalecieron mi capacidad para crear aplicaciones web robustas y eficientes.
+                      </p>
+                    </div>
+                  </article>
+  
+                  
+                </div>
+              </section>
+            
+            <section class="curriculum__right">
+              <header class="curriculum__subheader">
+                
+              <header class="curriculum__subheader">
+                <h2 class="curriculum__subtitle">
+                  Habilidades de <span class="title__color">Codigo</span>
+                </h2>
+              </header>
+              <div class="curriculum__skill">
+                <article class="skill__item">
+                  <h4 class="skill__text">HTML</h4>
+                </article>
 
-    
-         
-</body>
+                <article class="skill__item">
+                  <h4 class="skill__text">CSS</h4>
+                </article>
+
+                <article class="skill__item">
+                  <h4 class="skill__text">JavaScript</h4>
+                </article>
+               
+                <article class="skill__item">
+                  <h4 class="skill__text">React</h4>
+                </article>
+                
+               
+                <article class="skill__item">
+                    <h4 class="skill__text">Node.js</h4>
+                </article>
+                <article class="skill__item">
+                    <h4 class="skill__text">Express</h4>
+                </article>
+                <article class="skill__item">
+                    <h4 class="skill__text">PostgreSQL</h4>
+                </article>
+                <article class="skill__item">
+                    <h4 class="skill__text">Bootstrap</h4>
+                </article>
+                 <article class="skill__item">
+                    <h4 class="skill__text">Material UI</h4>
+                </article>
+              </div>
+
+            </section>
+          </div>
+
+          <section class="certificates__container">
+            <header class="certificate__header">
+              <h2 class="certificate__title">Certificados</h2>
+            </header>
+            <div class="certificates_certificate">
+              <article class="cartificates__item">
+                <div class="cartificate__logo">
+                  <a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/32779/certificacion-aprobacion-de-carrera-nuevo-proyecto-final-g48-11096(3).png"> <img
+                    src="./assets/img/logo-desafiolatam.png"
+                    alt=""
+                    class="certificate__logoimg"
+                  /></a>
+                 
+                </div>
+                <h3 class="certificate__subtitle">Desarrollador FullStack</h3>
+              </article>
+             
+             
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
