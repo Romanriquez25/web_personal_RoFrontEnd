@@ -1,0 +1,72 @@
+@media (max-width: 1950px) {
+    .body{
+        padding: 0;
+    }
+    .layout{
+        min-width: auto;
+        width: 80%;
+    }
+ 
+}
+
+@media (max-width: 1024px ){
+    
+    .layout{
+        min-width: auto;
+        width: 80%;
+    }
+
+    .curriculum__container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .user-info__name{
+        font-size: 20px;
+    }
+   
+    .curriculum__skill{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .curriculum__header{
+        display: flex;
+        justify-content: center;
+    }
+    .curriculum__subheader{
+        display: flex;
+        justify-content: center;
+    }
+    .curriculum__subtitle{
+        width: 100%;
+    }
+    .certificates__container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto__container{
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+   
+}
+
+
+
+
+@media(max-width: 1120px){
+    .layout{
+        min-width: auto;
+        width: 50%;
+    }
+}

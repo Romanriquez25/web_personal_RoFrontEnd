@@ -937,7 +937,6 @@ h1,h2,h3,h4,h5,h6{
     left: 280px;
     width: 35px;
     height: 25px;
-    background-image: -webkit-repeating-radial-gradient(center center, var(--color-text),var(--color-secondary) 1px,transparent 1px,transparent 100%);
     background-size: 0.5rem 0.6rem;
     opacity: 0.3;
 }
@@ -1004,3 +1003,15 @@ body{
 }
 
 
+@media (max-width: 768px) {
+    .layout {
+        grid-template-areas: 
+        "aside"
+        "content";
+        grid-template-columns: 100%;
+    }
+    
+    .layout__aside, .layout__content {
+        
+    }
+}
