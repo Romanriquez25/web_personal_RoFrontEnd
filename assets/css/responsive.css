@@ -1,4 +1,4 @@
-@media (max-width: 1950px) {
+@media (min-width: 1541px) and (max-width: 1950px) {
     .body{
         padding: 0;
     }
@@ -9,64 +9,158 @@
  
 }
 
-@media (max-width: 1024px ){
+@media (min-width: 1220px) and (max-width: 1540px){
+  .body{
+    padding: 0;
+   }
+   .layout{
+    min-width: auto;
+    width: 75%;
+   }
+    
+   .user-info__name,
+   .user-info__job{
+
+    font-size: 19px;
+
+   }
+   
+  
+   
+
+}
+
+@media (min-width: 1024px) and (max-width:1219px){
     
     .layout{
         min-width: auto;
-        width: 80%;
+        width: 75%;
     }
-
-    .curriculum__container{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .user-info__name{
-        font-size: 20px;
-    }
+      
+    
+  .user-info__container-image{
+    margin-left: -30px;
+   }
    
-    .curriculum__skill{
+   .user-info__btn{
+    margin-left: -30px;
+   }
+  
+
+    .user-info__name,
+    .user-info__job,
+    .user-info__links{
+ 
+     font-size: 19px;
+     margin-left: -50px;
+ 
+    }
+
+    .fa-linkedin{
+        margin-left: 50px;
+    }
+    .curriculum__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .curriculum__skill {
         display: flex;
         width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .curriculum__header{
+
+    .curriculum__header {
         display: flex;
         justify-content: center;
     }
-    .curriculum__subheader{
+
+    .curriculum__subheader {
         display: flex;
         justify-content: center;
     }
-    .curriculum__subtitle{
+
+    .curriculum__subtitle {
         width: 100%;
     }
-    .certificates__container{
+
+    .certificates__container {
         display: flex;
         width: 100%;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
-    .contacto__container{
+
+    .contacto__container {
         display: flex;
         flex-direction: column;
         overflow: auto;
-    }
-
-   
+    } 
 }
 
 
-
-
-@media(max-width: 1120px){
+@media (min-width: 768px) and (max-width: 1023px) {
+    .body{
+        background-image: none;
+    }
+    
     .layout{
+        display: block;
         min-width: auto;
-        width: 50%;
+        width: 100%;
+     }
+     .layout__content{
+       display: block;
+       position: relative;
+              
+     }
+     .curriculum__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+    .curriculum__skill {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .curriculum__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .curriculum__subheader {
+        display: flex;
+        justify-content: center;
+    }
+
+    .curriculum__subtitle {
+        width: 100%;
+    }
+
+    .certificates__container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__container {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    } 
+    .about__personal-info{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
+
