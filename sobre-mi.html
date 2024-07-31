@@ -20,7 +20,7 @@
     <div class="layout">
 
         <!--BarraLateral-->
-        <aside class="layout__aside">
+        <aside id="layout__aside" class="layout__aside">
 
             <section class="aside__user-info">
                 <!--información general-->
@@ -90,6 +90,11 @@
             </section>
 
         </aside>
+      <!--Menu responsive-->
+      <div id="boton" class="layout__menu-toggle">
+        <i id="fa-bars" class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i id="fa-xmark"  class="menu-toggle__icon fa-solid fa-xmark layaout__menuHidden"></i>
+      </div>
 
         <!--Contenido Principal-->
         <main class="layout__content">
@@ -149,4 +154,6 @@
     
          
 </body>
+<script src="index.js"></script>
+
 </html>

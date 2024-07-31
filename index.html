@@ -28,7 +28,7 @@
 
     <div class="layout">
       <!--BarraLateral-->
-      <aside class="layout__aside">
+      <aside id="layout__aside" class="layout__aside">
         <section class="aside__user-info">
           <!--información general-->
           <div class="user-info__general">
@@ -46,7 +46,7 @@
             </div>
           </div>
           <!--Menu Navegacion-->
-          <nav class="layaout__menu">
+          <nav class="layaout__menu menu">
             <ul class="menu__list">
               <li class="menu__option">
                 <a href="index.html" class="menu__link menu__link--active"
@@ -104,9 +104,14 @@
           </footer>
         </section>
       </aside>
-
-      <!--Contenido Principal-->
-      <main class="layout__content">
+      <!--Menu responsive-->
+      <div id="boton" class="layout__menu-toggle">
+        <i id="fa-bars" class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i id="fa-xmark"  class="menu-toggle__icon fa-solid fa-xmark layaout__menuHidden"></i>
+      </div>
+        
+       <!--Contenido Principal-->
+      <main class="layout__content ">
         <section class="content__page">
           <h1 class="page__name">Rodrigo Manriquez</h1>
           <h2 class="page__job">Desarrollador FullStack</h2>
@@ -114,4 +119,5 @@
       </main>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
